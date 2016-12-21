@@ -1,0 +1,36 @@
+{
+  "name": "yabao-client",
+  "description": "A Vue.js project",
+  "author": "631663525@qq.com",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "element-ui": "1.0.6",
+    "es6-promise": "^4.0.5",
+    "vue": "^2.0.5",
+    "vue-router": "^2.1.1",
+    "vuex": "^2.0.0",
+    "whatwg-fetch": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.13.2",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.1",
+    "express": "^4.14.0",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.24.1",
+    "less": "^2.6.1",
+    "less-loader": "^2.2.2",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^9.8.0",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "beta",
+    "webpack-dev-server": "beta",
+    "webpack-merge": "^1.1.1"
+  }
+}
