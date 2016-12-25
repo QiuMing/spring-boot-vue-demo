@@ -20,6 +20,12 @@ public class Cookbook {
     private String id;
     private String name;
     private Integer buyNum;
+    private Integer price;
 
 
+    public Cookbook(String name, Integer buyNum, Integer price) {
+        this.name = name;
+        this.buyNum = buyNum;
+        this.price = price;
+    }
 }

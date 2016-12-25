@@ -17,7 +17,7 @@ export default {
   methods: {
   	test(){
   		console.log("------------")
-		 fetch('http://localhost:8081/users', {mode: 'cors'})  
+		 fetch('http://localhost:8082/users', {mode: 'cors'})  
 		    .then((response) => {
 		        if (response.ok) {
 		            return response.json()
@@ -27,6 +27,7 @@ export default {
 		    })
 		    .then((data) => {
 		        console.log(data)
+				this.msg=data;
 		    })
 		    .catch((err)=> {
 		        console.error(err)

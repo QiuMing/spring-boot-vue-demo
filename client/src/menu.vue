@@ -5,14 +5,14 @@
                 管理后台
             </div>
             <ul class="nav">
+                <li :class="{active: this.$route.path == '/cookbook'}">
+                    <router-link to="/cookbook">食谱管理</router-link>
+                </li>
                 <li :class="{active: this.$route.path == '/settings'}">
                     <router-link to="/settings">菜单管理</router-link>
                 </li>
                  <li :class="{active: this.$route.path == '/userManager'}">
                     <router-link to="/userManager">用户管理</router-link>
-                </li>
-                <li :class="{active: this.$route.path == '/cookbook'}">
-                    <router-link to="/cookbook">食谱管理</router-link>
                 </li>
             </ul>           
         </header>
