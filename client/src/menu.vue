@@ -2,11 +2,11 @@
      <div class='page-wrapper'>
         <header className="page-header">
             <div class="logo">
-                管理后台
+                点餐系统
             </div>
             <ul class="nav">
                 <li :class="{active: this.$route.path == '/cookbook'}">
-                    <router-link to="/cookbook">食谱管理</router-link>
+                    <router-link to="/cookbook">订餐详情</router-link>
                 </li>
                 <li :class="{active: this.$route.path == '/settings'}">
                     <router-link to="/settings">菜单管理</router-link>

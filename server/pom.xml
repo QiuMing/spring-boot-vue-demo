@@ -51,9 +51,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>fastjson</artifactId>
-                <version>1.2.23</version>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.23</version>
         </dependency>
     </dependencies>
 

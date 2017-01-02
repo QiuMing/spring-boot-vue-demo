@@ -18,3 +18,6 @@ npm run dev
 cd server
 mvn spring-boot:run
 ```
+
+
+![](https://github.com/QiuMing/yaobo/screenshot/1.png)

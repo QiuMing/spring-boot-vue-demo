@@ -36,9 +36,7 @@
   <hr/>
   <br/>
 
- <h1>总价格：{{
-      msg
-   }}
+ <h1>总价格:{{msg}}
   </h1>
  </div>
 </template>
@@ -49,12 +47,12 @@
       return {
         cookbooks: [],
         userDishes: [],
-        msg:"",
+        msg: '0',
       }
     },
 
     computed: {
-        test:function () {
+        allPrice:function () {
           var all=0;
           var data = this.userDishes;
           for(var o in data){  
@@ -125,7 +123,6 @@
          // inputPattern: /[\w!#$%&'*+/=?^_`{|}~-]+(?:\.[\w!#$%&'*+/=?^_`{|}~-]+)*@(?:[\w](?:[\w-]*[\w])?\.)+[\w](?:[\w-]*[\w])?/,
          // inputErrorMessage: '邮箱格式不正确'
         }).then(({ value }) => {
-
           this.$message({
             type: 'success',
             message: '你的名字: ' + value
@@ -184,12 +181,6 @@
                 console.error(err)
             })  	
       },
-      
-      // test(data){
-      //      for(var o in data){  
-      //        console("text:"+data[o].dishesName+" value:"+data[o].price );  
-      //     }   
-      // },
     }
   }
 </script>
