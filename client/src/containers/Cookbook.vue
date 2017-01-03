@@ -87,7 +87,7 @@
             .then((data) => {
                 console.log(data)
                 this.cookbooks=data;
-            this.msg=data;
+                //this.msg=data;
             })
             .catch((err)=> {
                 console.error(err)
@@ -173,6 +173,7 @@
             .then((response) => {
                 if (response.ok) {
                   console.log("删除成功")
+                  userDishes.splice(index, 1);
                 } else {
                     console.error('服务器繁忙，请稍后再试；\r\nCode:' + response.status)
                 }
