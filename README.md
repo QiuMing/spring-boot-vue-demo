@@ -20,4 +20,4 @@ mvn spring-boot:run
 ```
 
 
-![](https://github.com/QiuMing/spring-boot-vue-demo/screenshot/1.png)
+![](https://github.com/QiuMing/spring-boot-vue-demo/blob/master/screenshot/1.png)
